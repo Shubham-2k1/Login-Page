@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    height: 40px;
+    background: rgb(212, 212, 212);
+    background: linear-gradient(90deg, rgba(238,154,242,1) 0%, rgba(176,77,255,1) 100%);
+    box-shadow: 7px 3px 5px 0px rgba(247, 247, 247, 0.2);
+    border-radius: 10px;  
+   
+}
+
+button[type=nav]{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: white;
+    
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    margin-left: .75%;
+    border-radius: 100px;
+    border: 0;
+    background: transparent;
+    width: 100px;
+}
+:hover[type=nav]{
+    transition: ease-in-out;
+    color: white;
+    background-color: rgb(236, 183, 236);
+    box-shadow: 0 2px 16px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 15ms;
+    cursor:pointer;
+}
+
+body{
+    background: rgb(231,122,236);
+background: linear-gradient(90deg, rgba(231,122,236,1) 0%, rgba(141,0,255,1) 100%);
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 1100px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 3px 5px -1px rgba(255,255,255,0.75);
+    margin-left: 15%;
+    margin-top: 3%;
+    Color:white;   
+    justify-content: flex-start;
+}
+
+#split1{
+    display: flex;
+    background-image: url('https://wallpapercave.com/uwp/uwp3577847.webp');
+    background-size: cover;
+    height: 600px;
+    width: 500px;
+    border-radius: 10px;
+    justify-content: center; 
+}
+
+#font{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+.split2{
+    display: flexbox;
+    flex-direction: column;
+    height: 600px;
+    width: 600px;
+    border-radius: 10px;
+    justify-content: left;
+    color: #000000;
+    
+    
+}
+
+#user{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 15%;
+    margin-left: 23%;
+    border-radius: 10px;
+}
+
+#pass{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 7%;
+    margin-left: 23%;
+    border-radius:10px;
+  
+}
+
+
+
+input[type=text] {
+    padding:10px;
+    border:0;
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius: 100px;
+    width: 350px;
+    height: 20px;
+  }
+
+button[type=submit]{
+    background-color: rgb(1, 101, 249);
+    color: white;
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.05);
+    border-radius: 100px;
+    border: 2px solid rgb(1, 101, 249);
+    padding: 5px;
+    padding-left: 5px;
+    border: 0px;
+    font-size: 20px;
+    margin-left: 45%;
+    margin-top: 5%;
+    transition-duration: 120ms;
+    cursor:pointer;
+}
+
+:hover[type=submit]{
+    box-shadow: 0 2px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition-delay: 15ms;
+   
+}

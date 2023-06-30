@@ -17,7 +17,7 @@ button[type=nav]{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background: white;
     
-    color: rgb(0, 0, 0);
+    color: rgb(254, 254, 254);
     font-size: 20px;
     margin-left: .75%;
     border-radius: 100px;
@@ -27,7 +27,7 @@ button[type=nav]{
 }
 :hover[type=nav]{
     transition: ease-in-out;
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: rgb(236, 183, 236);
     box-shadow: 0 2px 16px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
@@ -38,6 +38,7 @@ button[type=nav]{
 body{
     background: rgb(231,122,236);
 background: linear-gradient(90deg, rgba(231,122,236,1) 0%, rgba(141,0,255,1) 100%);
+
 }
 
 
@@ -56,7 +57,7 @@ background: linear-gradient(90deg, rgba(231,122,236,1) 0%, rgba(141,0,255,1) 100
 }
 
 #split1{
-    display: flex;
+    display: flexbox;
     background-image: url('https://wallpapercave.com/uwp/uwp3577847.webp');
     background-size: cover;
     height: 600px;
@@ -140,3 +141,4 @@ button[type=submit]{
     transition-delay: 15ms;
    
 }
+
